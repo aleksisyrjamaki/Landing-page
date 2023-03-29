@@ -1,6 +1,5 @@
 * {
     font-family: sans-serif;
-    border: 1px red solid;
 }
 
 .logo {
@@ -26,10 +25,12 @@
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    padding: 20px 0;
 }
 
 .header {
     background-color: #1F2937;
+    height: 400px;
 }
 
 .header-top {
@@ -41,15 +42,65 @@
 
 .header-bottom {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 40px 20px;
 }
 
 .header-left {
     margin-left: 200px;
+    flex-direction: column;
 }
 
 .header-bottom img {
     margin-right: 200px;
+}
+
+button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+html {
+    width: 80%;
+    margin: auto;
+}
+
+.header-bottom img {
+    width: 600px;
+    background-color: gray;
+}
+
+.information-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+    margin: 50px 700px;
+    height: 400px;
+}
+
+.box figure {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.box figcaption {
+    padding: 0 30px;
+    text-align: center;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    height: 400px;
 }
